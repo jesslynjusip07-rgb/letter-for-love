@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+}
+
+/* LETTER PAGE */
+.letter {
+    background: white;
+    width: 500px;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.signature {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.center {
+    margin: 20px 0;
+}
+
+.btn {
+    background: #ff4d6d;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #e63956;
+}
+
+/* ALBUM PAGE */
+.album-title {
+    margin-top: 40px;
+    color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 40px;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+}
